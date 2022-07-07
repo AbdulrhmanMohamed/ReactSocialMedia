@@ -1,0 +1,91 @@
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+    height: 100vh;
+}
+
+.auth >div{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+
+}
+.left-auth{
+    gap:2rem;
+}
+.left-auth img{
+    width:4rem;
+    height: 4rem;
+}
+
+
+.webName>h1{
+    font-size: 3rem;
+    background-color: red;
+    background-image: var(--buttonBg);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.webName h6{
+    font-size: 0.85rem;
+}
+
+
+.auth-right{
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    min-width: 20rem;
+}
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.formInput{
+    display: flex;
+    align-self: stretch;
+
+}
+.auth input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color:var(--inputColor);
+    padding:20px;
+    border-radius: 8px;
+}
+input:first-of-type,input:last-of-type{
+    margin: 0 5px;
+}
+
+.inf-btn{
+    width: 6rem;
+    height: 2rem;
+    align-self: flex-end;
+}.auth-right h1 , .auth-right span{
+    margin-left: 5px;
+}
+
+.hav-acc{
+    text-align: center;
+}
+.hav-acc span{
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s all ease;
+}
+
+.hav-acc span:hover{
+    color: orange;
+}
